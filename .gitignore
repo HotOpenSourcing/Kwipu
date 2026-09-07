@@ -1,6 +1,4 @@
 # Local environment and generated reviews
-.env
-.env.*
 !.env.example
 /semantic-review/
 
@@ -25,7 +23,6 @@ venv/
 env/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -44,3 +41,5 @@ desktop.ini
 # User knowledge base (keep examples only)
 knowledge_base/*
 !knowledge_base/examples/
+config.bat
+node_modules
